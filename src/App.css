@@ -1,0 +1,32 @@
+
+.main_header {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vh 0;
+  font-size: clamp(1rem, 2.7vw, 3.125rem);
+  color: var(--main-header-text-color);
+}
+
+.main-header__right-block, .user-info {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.main-header__right-block {
+  gap: 4vw;
+}
+
+.user-info {
+  gap: 2vw;
+}
+
+.avatar {
+  width: clamp(2rem, 6vw, 5rem);
+  height: clamp(2rem, 6vw, 5rem);
+  border-radius: 50%;
+  border: 2px solid white;
+}

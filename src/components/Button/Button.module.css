@@ -1,0 +1,16 @@
+.button {
+    box-sizing: border-box;
+    border-radius: 1vw;
+    border: none;
+    padding: 1vw 1.2vw;
+    box-shadow: 2px 2px 4px #00000029;
+    background-color: var(--tasklist-last-back-color);
+    transition: background-color 1s ease;
+    font-weight: 400;
+    color: var(--dark-blue-color);
+    font-size: clamp(0.4rem, 1vw, 1rem);
+}
+
+.button:hover {
+    background-color: var(--tasklist-back-color);
+}

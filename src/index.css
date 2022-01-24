@@ -1,0 +1,28 @@
+:root {
+  --base-font-family: 'Fira Sans', sans-serif, Helvetica;
+
+  --dark-blue-color: #020275;
+  --light-blue-color: #93C4F5;
+  --mid-blue-color: #7CBAF9;
+
+  --shadow-color: #00000029;
+  --tasklist-last-back-color: #cbdff473;
+  --tasklist-back-color: #cbdff4bf;
+
+  --main-header-text-color: var(--dark-blue-color);
+  --background-start-color: var(--mid-blue-color);
+  --background-end-color: #7FACAC;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: var(--base-font-family);
+}
+
+body {
+  padding: 0 calc(100vw / 24);
+  min-height: 100vh;
+  background: linear-gradient(var(--background-start-color), var(--background-end-color)) center / cover no-repeat;
+  transition: .5s;
+}
